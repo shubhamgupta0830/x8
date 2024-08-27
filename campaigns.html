@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campaigns</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Ad Platform Interface</h1>
+    </div>
+
+    <div class="sidebar">
+        <a href="campaigns.html">Campaigns</a>
+        <a href="target-audience.html">Target Audience</a>
+        <a href="ad-placement.html">Ad Placement</a>
+        <a href="creative-assets.html">Creative Assets</a>
+        <a href="budget-bidding.html">Budget & Bidding</a>
+        <a href="schedule-timing.html">Schedule & Timing</a>
+        <a href="tracking-analytics.html">Tracking & Analytics</a>
+    </div>
+    <div class="main-content">
+        <div class="card">
+            <h2>Create a New Campaign</h2>
+            <form>
+                <label for="campaign-name">Campaign Name:</label>
+                <input type="text" id="campaign-name" name="campaign-name" required>
+                
+                <label for="campaign-objective">Objective:</label>
+                <select id="campaign-objective" name="campaign-objective">
+                    <option value="awareness">Brand Awareness</option>
+                    <option value="leads">Lead Generation</option>
+                    <option value="conversions">Conversions</option>
+                </select>
+                
+                <button type="submit">Create Campaign</button>
+            </form>
+        </div>
+
+        <div class="card">
+            <h2>Existing Campaigns</h2>
+            <ul>
+                <li>Campaign 1 - Objective: Brand Awareness</li>
+                <li>Campaign 2 - Objective: Conversions</li>
+                <!-- More campaigns can be listed here -->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget and Bidding</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Ad Platform Interface</h1>
+    </div>
+
+    <div class="sidebar">
+        <a href="campaigns.html">Campaigns</a>
+        <a href="target-audience.html">Target Audience</a>
+        <a href="ad-placement.html">Ad Placement</a>
+        <a href="creative-assets.html">Creative Assets</a>
+        <a href="budget-bidding.html">Budget & Bidding</a>
+        <a href="schedule-timing.html">Schedule & Timing</a>
+        <a href="tracking-analytics.html">Tracking & Analytics</a>
+    </div>
+    <div class="main-content">
+        <div class="card">
+            <h2>Set Budget and Bidding Strategy</h2>
+            <form>
+                <label for="budget">Budget:</label>
+                <input type="number" id="budget" name="budget" placeholder="e.g., 1000">
+                
+                <label for="bidding-strategy">Bidding Strategy:</label>
+                <select id="bidding-strategy" name="bidding-strategy">
+                    <option value="cpc">Cost Per Click (CPC)</option>
+                    <option value="cpm">Cost Per Impression (CPM)</option>
+                    <option value="cpa">Cost Per Acquisition (CPA)</option>
+                </select>
+                
+                <button type="submit">Save Budget and Bidding</button>
+            </form>
+        </div>
+
+        <div class="card">
+            <h2>Existing Budgets and Bidding Strategies</h2>
+            <ul>
+                <li>Campaign 1 - Budget: $1000, Bidding: CPC</li>
+                <li>Campaign 2 - Budget: $2000, Bidding: CPM</li>
+                <!-- More budgets and bidding strategies can be listed here -->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

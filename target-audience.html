@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target Audience</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Ad Platform Interface</h1>
+    </div>
+
+    <div class="sidebar">
+        <a href="campaigns.html">Campaigns</a>
+        <a href="target-audience.html">Target Audience</a>
+        <a href="ad-placement.html">Ad Placement</a>
+        <a href="creative-assets.html">Creative Assets</a>
+        <a href="budget-bidding.html">Budget & Bidding</a>
+        <a href="schedule-timing.html">Schedule & Timing</a>
+        <a href="tracking-analytics.html">Tracking & Analytics</a>
+    </div>
+    <div class="main-content">
+        <div class="card">
+            <h2>Create a New Target Audience</h2>
+            <form>
+                <label for="age-range">Age Range:</label>
+                <input type="text" id="age-range" name="age-range" placeholder="e.g., 18-35">
+                
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" placeholder="e.g., USA">
+                
+                <label for="interests">Interests:</label>
+                <input type="text" id="interests" name="interests" placeholder="e.g., Technology, Sports">
+                
+                <button type="submit">Create Audience</button>
+            </form>
+        </div>
+
+        <div class="card">
+            <h2>Existing Audiences</h2>
+            <ul>
+                <li>Audience 1 - Age: 18-35, Location: USA, Interests: Tech</li>
+                <li>Audience 2 - Age: 25-45, Location: UK, Interests: Sports</li>
+                <!-- More audiences can be listed here -->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

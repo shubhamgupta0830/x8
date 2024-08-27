@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad Placement</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Ad Platform Interface</h1>
+    </div>
+
+    <div class="sidebar">
+        <a href="campaigns.html">Campaigns</a>
+        <a href="target-audience.html">Target Audience</a>
+        <a href="ad-placement.html">Ad Placement</a>
+        <a href="creative-assets.html">Creative Assets</a>
+        <a href="budget-bidding.html">Budget & Bidding</a>
+        <a href="schedule-timing.html">Schedule & Timing</a>
+        <a href="tracking-analytics.html">Tracking & Analytics</a>
+    </div>
+    <div class="main-content">
+        <div class="card">
+            <h2>Configure Ad Placement</h2>
+            <form>
+                <label for="platform">Platform:</label>
+                <select id="platform" name="platform">
+                    <option value="facebook">Facebook</option>
+                    <option value="google">Google</option>
+                    <option value="instagram">Instagram</option>
+                </select>
+                
+                <label for="device">Device Targeting:</label>
+                <select id="device" name="device">
+                    <option value="all">All Devices</option>
+                    <option value="mobile">Mobile</option>
+                    <option value="desktop">Desktop</option>
+                </select>
+                
+                <button type="submit">Save Placement</button>
+            </form>
+        </div>
+
+        <div class="card">
+            <h2>Existing Ad Placements</h2>
+            <ul>
+                <li>Placement 1 - Platform: Facebook, Device: Mobile</li>
+                <li>Placement 2 - Platform: Google, Device: Desktop</li>
+                <!-- More placements can be listed here -->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

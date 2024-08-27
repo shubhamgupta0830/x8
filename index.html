@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad Platform Interface</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #555;
+            color: #fff;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
+        .sidebar a {
+            padding: 15px;
+            text-decoration: none;
+            color: #fff;
+            display: block;
+        }
+        .sidebar a:hover {
+            background-color: #666;
+        }
+        .main-content {
+            margin-left: 200px;
+            padding: 20px;
+        }
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Ad Platform Interface</h1>
+    </div>
+
+    <div class="sidebar">
+        <a href="campaigns.html">Campaigns</a>
+        <a href="target-audience.html">Target Audience</a>
+        <a href="ad-placement.html">Ad Placement</a>
+        <a href="creative-assets.html">Creative Assets</a>
+        <a href="budget-bidding.html">Budget & Bidding</a>
+        <a href="schedule-timing.html">Schedule & Timing</a>
+        <a href="tracking-analytics.html">Tracking & Analytics</a>
+    </div>
+
+    <div class="main-content">
+        <!-- This is where the content for each page will be loaded -->
+        <div class="card">
+            <h2>Welcome to the Ad Platform</h2>
+            <p>Select a section from the sidebar to get started.</p>
+        </div>
+    </div>
+</body>
+</html>
